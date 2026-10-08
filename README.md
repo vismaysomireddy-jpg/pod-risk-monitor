@@ -15,7 +15,7 @@ The book holds nine stocks (AAPL, MSFT, NVDA, JPM, AMD, PLTR, PRU.L, SHEL.L, AZN
 | Annualised volatility | 20.8% | Amber |
 | 95% one-day VaR | 1.97% | Green, but only just |
 | Max drawdown | 20.8%, low on 8 April 2025 | n/a |
-| Current drawdown | 0%, the book is at a high | Green |
+| Current drawdown | Under 0.1%, the book is near a high | Green |
 
 The main finding is concentration. PLTR, AMD and NVDA are a third of the capital but drive 67% of the book's volatility. The three London stocks are a third of the capital and contribute under a tenth of the risk. Holding nine tickers is not the same as holding nine independent bets.
 
@@ -47,4 +47,3 @@ The main finding is concentration. PLTR, AMD and NVDA are a third of the capital
     source .venv/bin/activate
     pip install -r requirements.txt
     python3 -m streamlit run app.py
-    
